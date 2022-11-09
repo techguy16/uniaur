@@ -1,3 +1,5 @@
+cd $HOME
+
 echo "Cloning gdevd repository..."
 git clone https://github.com/techguy16/gdevd > /dev/null
 
