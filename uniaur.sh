@@ -9,5 +9,5 @@ echo "
 echo Uniaur is installing $1
 
 sudo apt install wget
-wget https://raw.githubusercontent.com/techguy16/uniaur/aurpkgs/$1.sh
+wget https://raw.githubusercontent.com/techguy16/uniaur/main/aurpkgs/$1.sh
 sudo sh $1.sh
