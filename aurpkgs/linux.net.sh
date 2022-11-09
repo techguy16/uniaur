@@ -1,3 +1,5 @@
+cd $HOME
+
 echo "Cloning Linux.NET Repository..."
 git clone https://github.com/techguy16/Linux.NET > /dev/null
 
