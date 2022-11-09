@@ -6,4 +6,4 @@ git clone https://github.com/lixit/spreadsheet.git > /dev/null
 
 echo "Compiling Lixit Spreadsheet..."
 cd spreadsheet
-qmake spreadsheet.pro
+qmake spreadsheet.pro > /dev/null
