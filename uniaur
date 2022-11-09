@@ -6,8 +6,8 @@ echo "
 ╚██████╔╝██║░╚███║██║██║░░██║╚██████╔╝██║░░██║
 ░╚═════╝░╚═╝░░╚══╝╚═╝╚═╝░░╚═╝░╚═════╝░╚═╝░░╚═╝
 "
-echo "Uniaur - a bad attempt at a Universal Linux AUR"
-echo Uniaur is installing $1
+echo "Uniaur - a bad attempt at a Universal Linux AUR made by techguy16"
+echo Uniaur is downloading the script to install $1
 
 sudo apt install wget
 wget https://raw.githubusercontent.com/techguy16/uniaur/main/aurpkgs/$1.sh
