@@ -6,6 +6,7 @@ echo "
 ╚██████╔╝██║░╚███║██║██║░░██║╚██████╔╝██║░░██║
 ░╚═════╝░╚═╝░░╚══╝╚═╝╚═╝░░╚═╝░╚═════╝░╚═╝░░╚═╝
 "
+echo "Uniaur - a bad attempt at a Universal Linux AUR"
 echo Uniaur is installing $1
 
 sudo apt install wget
