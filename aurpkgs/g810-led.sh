@@ -1,3 +1,5 @@
+cd $HOME
+
 echo "Installing Dependencies..."
 sudo apt-get install git g++ make libhidapi-dev libusb-1.0-0-dev > /dev/null
 
