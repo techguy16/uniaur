@@ -4,7 +4,7 @@ echo "Installing Dependencies..."
 sudo apt install wget git > /dev/null
 
 echo "Downloading Uniaur Script..."
-wget https://raw.githubusercontent.com/techguy16/uniaur/main/uniaur > /dev/null
+wget -q https://raw.githubusercontent.com/techguy16/uniaur/main/uniaur > /dev/null
 
 echo "Making Script Executable..."
 sudo chmod +x ./uniaur > /dev/null
