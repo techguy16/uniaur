@@ -1,3 +1,5 @@
+cd $HOME
+
 echo "Installing Dependencies..."
 sudo apt-get install build-essential qtcreator qt5-default git > /dev/null
 
