@@ -11,7 +11,7 @@ wget -q https://raw.githubusercontent.com/techguy16/uniaur/main/update-uniaur > 
 sleep 2
 echo -ne 'Making script executable...          [#############             (66%)]\r'
 sudo chmod +x ./uniaur > /dev/null
-sudo chmod +x ./update-uniaur > /dev/nul
+sudo chmod +x ./update-uniaur > /dev/null
 
 sleep 2
 echo -ne 'Copying new files...                 [#######################   (99%)]\r'
