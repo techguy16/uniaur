@@ -9,7 +9,7 @@ wget -q https://raw.githubusercontent.com/techguy16/uniaur/main/uniaur > /dev/nu
 wget -q https://raw.githubusercontent.com/techguy16/uniaur/main/update-uniaur > /dev/null
 
 sleep 2
-echo'Making script executable...          [#############             (66%)]\r'
+echo 'Making script executable...          [#############             (66%)]\r'
 sudo chmod +x ./uniaur > /dev/null
 sudo chmod +x ./update-uniaur > /dev/null
 
