@@ -1,4 +1,6 @@
 echo "Install uniaur"
+echo "\n"
+echo "\n"
 
 echo 'Installing dependencies...           [                           (4%)]\r'
 sudo apt install wget git > /dev/null 2>&1
