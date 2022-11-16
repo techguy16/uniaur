@@ -1,7 +1,7 @@
 echo "Install uniaur"
 
 echo -ne 'Installing dependencies...           [                           (4%)]\r'
-sudo apt install wget git &> /dev/null
+sudo apt install wget git > /dev/null 2>&1
 sleep 2
 
 echo -ne 'Downloading uniaur scripts...        [#####                     (33%)]\r'
