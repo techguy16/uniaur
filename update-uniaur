@@ -1,0 +1,17 @@
+echo "Updating uniaur..."
+
+echo -ne 'Downloading latest uniaur script...  [#####                     (33%)]\r'
+wget -q https://raw.githubusercontent.com/techguy16/uniaur/main/uniaur > /dev/null
+sleep 2
+echo -ne 'Making script executable...          [#############             (66%)]\r'
+sudo chmod +x ./uniaur > /dev/null
+sleep 2
+echo -ne 'Copying new files...                 [#######################   (99%)]\r'
+sudo mv ./uniaur /usr/bin > /dev/null
+sleep 2
+echo -ne 'Done!                                [#######################   (100%)]\r'
+echo -ne '\n'
+
+echo "uniaur has been updated."
+
+
